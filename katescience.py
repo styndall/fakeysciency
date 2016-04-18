@@ -52,8 +52,8 @@ def checks():
 def rand_ip():
 	ip = ""
 	for x in range(3):
-		ip = ip + str(random.randint(35, 899)) + "."
-	ip = ip + str(random.randint(35,999))
+		ip = ip + str(random.randint(1, 256)) + "."
+	ip = ip + str(random.randint(1, 256))
 	return ip
 
 
