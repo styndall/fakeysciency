@@ -1,8 +1,6 @@
 import string, random, time
 
 
-
-
 def graphs(graphtype):
 	#select distinct graph types
 	if graphtype == 1:
@@ -38,6 +36,7 @@ def graphs(graphtype):
 	time.sleep(1)
 	return
 
+
 def checks():
     y = random.randint(1,24)
     for l in range(y):
@@ -46,7 +45,6 @@ def checks():
     print "CHECKS COMPLETE"
     time.sleep(.3)
     return
-
 
 
 def rand_ip():
@@ -72,6 +70,7 @@ def hackit():
 		time.sleep(3)
 		print "HACKING BATTLE LOST"	
 
+
 def counter_hack():
 	print "BEGINNING COUNTERHACK\n"
 	print "GENERATING SPOOFED IPS:\n"
@@ -84,10 +83,12 @@ def counter_hack():
 		time.sleep(.1)
 	print "COUNTERHACK SUCCESSFUL\n\n"
 	time.sleep(2)
-	
+
+
 def publish_results():
 	print "SCIENCE COMPLETE"	
-        
+
+
 def do_science():
 	b = list(string.printable)*40000
 	g = ""
